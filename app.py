@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 # Mot de passe en dur
-PASSWORD = "JaiCompris"
+PASSWORD = "aaa"
 
 @app.route("/")
 def index():
